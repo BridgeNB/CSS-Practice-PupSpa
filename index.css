@@ -1,0 +1,90 @@
+body {
+  background-color: #ffffff;
+  color: #db6363;
+  text-align: center;
+}
+
+header {
+  background-color: #ffffff;
+  color: #dc6363;
+  padding-top:10px;
+}
+
+.banner {
+  background-color: #db6363;
+  padding-top: 10px;
+  font-family: Poppins;
+  font-size: 84px;
+  letter-spacing: 3.7px;
+  color: #ffffff;
+}
+
+.about {
+  background-color: #f0f0f0;
+  padding-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template: 5% 30% 10% 30% 20% 5% / repeat(6, 1fr);
+  grid-column-gap: 20px;
+}
+
+header, .banner, .about, footer {
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.box {
+  background-color: #2f2f2f;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.testimonial {
+  margin: auto;
+  padding: auto;
+  background-color: #f0f0f0;
+  color: #db6363;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 3.7px;
+  font-style: italic;
+}
+
+footer {
+  background-color: #db6363;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+}
+
+
+.address {
+  grid-column: 1 / span 2;
+}
+
+.hours {
+  grid-column: 3 / span 2;
+}
+
+.call-us {
+  grid-column: 5 / span 2;
+}
+
+.one {
+  grid-column: 1 / span 3;
+}
+
+.two {
+  grid-column: 4 / span 3;
+}
